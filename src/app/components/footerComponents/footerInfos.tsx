@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebook, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const FooterInfos: React.FC = ({}) => {
   return (
@@ -98,7 +98,7 @@ const FooterInfos: React.FC = ({}) => {
           </div>
 
           {/* Section - serviços faciais */}
-          <div className="lg:gap-2">
+          <div className="lg:gap-2 pt-10 md:pt-0">
             <div className="flex flex-col text-center md:text-start">
               <h3 className="text-sm font-semibold uppercase tracking-wide text-white">
                 Estética Facial
@@ -217,7 +217,7 @@ const FooterInfos: React.FC = ({}) => {
           </div>
 
           {/* Section - serviços corporal */}
-          <div className="lg:gap-2">
+          <div className="lg:gap-2 pt-10 md:pt-0">
             <div className="flex flex-col text-center md:text-start">
               <h3 className="text-sm font-semibold uppercase tracking-wide text-white">
                 Estética Corporal
