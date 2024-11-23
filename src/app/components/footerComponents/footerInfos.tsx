@@ -7,8 +7,8 @@ const FooterInfos: React.FC = ({}) => {
       <div className="w-full px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:justify-between px-10">
           {/* Section - sobre */}
-          <div className="mb-8 lg:mb-0">
-            <h2 className="text-xl font-bold text-primary text-center md:text-start">
+          <div className="mb-8 lg:mb-0 text-center lg:text-start">
+            <h2 className="text-xl font-bold text-primary text-center md:text-start text-white">
               Harmony Clinic Bagé
             </h2>
             <p className="mt-2 max-w-xs text-slate-400">
@@ -341,7 +341,7 @@ const FooterInfos: React.FC = ({}) => {
           <p>Harmony Clinic Bagé © 2024. Todos os direitos reservados.</p>
           <p className="px-2">|</p>
           <Link href="#">
-            <p className="hover:text-white">CSSHR © 2024</p>
+            <p className="hover:text-white">Shr Agência Digital © 2024</p>
           </Link>
         </div>
       </div>

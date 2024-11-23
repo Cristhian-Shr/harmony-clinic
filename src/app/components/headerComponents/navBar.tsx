@@ -1,15 +1,18 @@
 import Image from "next/image";
-import logoTipo from "../../../../public/logo/logo06-removebg-preview.png";
+import logoDesktop from "../../../../public/logo/logo06-removebg-preview.png";
+import logoCel from "../../../../public/logo/logo05-removebg-preview.png";
 import Link from "next/link";
+import { DropdownMenuCel } from "./dropdownMenuCel";
 
 const Navbar: React.FC = ({}) => {
   return (
     <section className="w-full h-24 px-10 md:px-20 lg:px-40 flex items-center justify-between">
-        <Link href="/">
-          <Image alt="logoTipo" src={logoTipo} className="w-80" />
-        </Link>
+      <Link href="/">
+        <Image alt="logoTipo" src={logoDesktop} className="w-80 hidden lg:flex" />
+        <Image alt="logoCel" src={logoCel} className="lg:hidden w-24" />
+      </Link>
       <div>
-        <nav>
+        <nav className="hidden lg:flex">
           <ul className="flex gap-5 font-semibold text-slate-400">
             <Link href="#" className="hover:text-slate-600 duration-300">
               Home
@@ -28,6 +31,9 @@ const Navbar: React.FC = ({}) => {
             </Link>
           </ul>
         </nav>
+        <div className="lg:hidden">
+          <DropdownMenuCel />
+        </div>
       </div>
     </section>
   );
