@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        customMarron: '#6d5860',
+        customMarron2: '#b49ca5',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
