@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const FooterInfos: React.FC = ({}) => {
   return (
-    <footer className="text-white py-12 w-full px-10 md:px-20 lg:px-40">
+    <footer className="text-white py-12 w-full px-10 md:px-20 lg:px-40 bg-customMarron">
       <div className="w-full px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:justify-between px-10">
           {/* Section - sobre */}
