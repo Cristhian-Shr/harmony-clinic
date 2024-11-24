@@ -15,7 +15,7 @@ export function TooltipWhats() {
         </TooltipTrigger>
         <TooltipContent>
           <div className="text-center">
-            <p className="text-sm text-semibold">Fale coma a nossa</p>
+            <p className="text-sm text-semibold">Fale com a nossa</p>
             <p className="text-sm text-semibold">atendente agora!</p>
           </div>
         </TooltipContent>
