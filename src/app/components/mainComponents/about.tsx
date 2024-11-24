@@ -1,5 +1,6 @@
 import Image from "next/image";
 import harmony from "../../../../public/profissionais/equipe01.jpeg";
+import CallToActionBtn from "../systemsComponents/callToActionBtn";
 
 const About: React.FC = ({}) => {
   return (
@@ -24,6 +25,7 @@ const About: React.FC = ({}) => {
           deleniti odio neque fuga iusto, quis dolore atque soluta maxime at
           corrupti rem facilis?
         </p>
+        <CallToActionBtn />
       </div>
       <div className="lg:w-1/2 flex flex-col items-center justify-center relative">
         <Image
