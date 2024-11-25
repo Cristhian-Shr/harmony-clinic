@@ -3,7 +3,6 @@ import Banner from "./components/headerComponents/banner";
 import Navbar from "./components/headerComponents/navBar";
 import About from "./components/mainComponents/about";
 import { TooltipWhats } from "./components/systemsComponents/tooltipWhats";
-import WhatsButton from "./components/systemsComponents/whatsButton";
 
 export default function Home() {
   return (
