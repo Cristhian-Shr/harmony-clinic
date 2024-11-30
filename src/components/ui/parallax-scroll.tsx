@@ -12,10 +12,10 @@ export const ParallaxScroll = ({
   images: string[];
   className?: string;
 }) => {
-  const gridRef = useRef<null>(null);
+  const gridRef = useRef(null);
   const { scrollYProgress } = useScroll({
-    container: gridRef, // remove this if your container is not fixed height
-    offset: ["start start", "end start"], // remove this if your container is not fixed height
+    container: gridRef, 
+    offset: ["start start", "end start"], 
   });
 
   const translateFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
@@ -40,7 +40,7 @@ export const ParallaxScroll = ({
         <div className="grid gap-10">
           {firstPart.map((el, idx) => (
             <motion.div
-              style={{ y: translateFirst }} // Apply the translateY motion value here
+              style={{ y: translateFirst }} 
               key={"grid-1" + idx}
             >
               <Image

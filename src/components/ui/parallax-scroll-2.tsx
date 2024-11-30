@@ -12,10 +12,10 @@ export const ParallaxScrollSecond = ({
   images: string[];
   className?: string;
 }) => {
-  const gridRef = useRef<null>(null);
+  const gridRef = useRef(null);
   const { scrollYProgress } = useScroll({
-    container: gridRef, // remove this if your container is not fixed height
-    offset: ["start start", "end start"], // remove this if your container is not fixed height
+    container: gridRef, 
+    offset: ["start start", "end start"], 
   });
 
   const translateYFirst = useTransform(scrollYProgress, [0, 1], [0, -200]);
@@ -48,7 +48,7 @@ export const ParallaxScrollSecond = ({
                 y: translateYFirst,
                 x: translateXFirst,
                 rotateZ: rotateXFirst,
-              }} // Apply the translateY motion value here
+              }} 
               key={"grid-1" + idx}
             >
               <Image
