@@ -1,12 +1,11 @@
 "use client";
 
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
-import depoiment from "../../../../public/depoimentos/WhatsApp Image 2024-11-20 at 15.14.20.jpeg";
 
 export function DepoimentsParallax() {
   return (
-    <section className="py-32 flex flex-col items-center">
-      <h1 className="py-8 text-5xl">Veja algum depoimentos</h1>
+    <section className="py-16 flex flex-col items-center bg-brownBgNav text-writingOne">
+      <h1 className="text-xl md:text-3xl lg:text-5xl pb-8">Veja algum depoimentos</h1>
       <ParallaxScroll images={images} />
     </section>
   );

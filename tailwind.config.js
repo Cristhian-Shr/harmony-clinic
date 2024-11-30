@@ -14,7 +14,13 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'brownBg': '#eeeae5',
+        'brownBgNav': '#856952',
+        'writingOne': '#eeeae5',
+      },
+    },
   },
   plugins: [addVariablesForColors],
 };

@@ -6,27 +6,27 @@ import { DropdownMenuCel } from "./dropdownMenuCel";
 
 const Navbar: React.FC = ({}) => {
   return (
-    <section className="w-full h-24 px-10 md:px-20 lg:px-40 flex items-center justify-between bg-customMarron">
+    <section className="w-full h-24 px-10 md:px-20 lg:px-40 flex items-center justify-between bg-brownBgNav">
       <Link href="/">
         <Image alt="logoTipo" src={logoDesktop} className="w-80 hidden lg:flex" />
         <Image alt="logoCel" src={logoCel} className="lg:hidden w-24" />
       </Link>
       <div>
         <nav className="hidden lg:flex">
-          <ul className="flex gap-5 font-semibold text-slate-400">
-            <Link href="#" className="hover:text-slate-700 duration-300">
+          <ul className="flex gap-5 font-semibold text-writingOne">
+            <Link href="#" className="hover:text-slate-700 duration-500">
               Home
             </Link>
-            <Link href="#" className="hover:text-slate-700 duration-300">
+            <Link href="#" className="hover:text-slate-700 duration-500">
               Sobre
             </Link>
-            <Link href="#" className="hover:text-white duration-300">
+            <Link href="#" className="hover:text-slate-700 duration-500">
               Depoimentos
             </Link>
-            <Link href="#" className="hover:text-white duration-300">
+            <Link href="#" className="hover:text-slate-700 duration-500">
               Resultados
             </Link>
-            <Link href="#" className="hover:text-white duration-300">
+            <Link href="#" className="hover:text-slate-700 duration-500">
               Contato
             </Link>
           </ul>

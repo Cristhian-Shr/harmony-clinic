@@ -3,27 +3,27 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const FooterInfos: React.FC = ({}) => {
   return (
-    <footer className="text-white py-12 w-full px-10 md:px-20 lg:px-40 bg-customMarron">
+    <footer className="bg-brownBgNav py-12 w-full px-10 md:px-20 lg:px-40">
       <div className="w-full px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:justify-between px-10">
           {/* Section - sobre */}
-          <div className="mb-8 lg:mb-0 text-center lg:text-start">
-            <h2 className="text-xl font-bold text-primary text-center md:text-start text-white">
+          <div className="mb-8 lg:mb-0 text-center lg:text-start text-writingOne">
+            <h2 className="text-xl font-bold text-center md:text-start">
               Harmony Clinic Bagé
             </h2>
-            <p className="mt-2 max-w-xs text-slate-400">
+            <p className="mt-2 max-w-xs">
               Quer saber mais sobre nós?
             </p>
-            <p className="mt-2 max-w-xs text-slate-400">
+            <p className="mt-2 max-w-xs">
               Veja nossas redes sociais!
             </p>
-            <div className="flex mt-8 space-x-4">
+            <div className="flex mt-8 space-x-4 text-writingOne">
               <ul className="flex gap-5 mx-auto md:mx-0">
                 <li>
                   <Link
                     href="https://www.facebook.com/harmonyclinicbage"
                     aria-label="Facebook"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     <FaFacebook size={40} />
                   </Link>
@@ -32,7 +32,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     href="https://www.instagram.com/harmonyclinicbage/"
                     aria-label="Intagram"
-                    className="text-slate-400 hover:text-slate-600"
+                    className=" hover:text-slate-600"
                   >
                     <FaInstagram size={40} />
                   </Link>
@@ -41,22 +41,22 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     href="https://wa.me/5553999097340?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
                     aria-label="Whatsapp"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     <FaWhatsapp size={40} />
                   </Link>
                 </li>
               </ul>
             </div>
-            <div className="mt-8 text-center md:text-start">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-white">
+            <div className="mt-8 text-center md:text-start text-writingOne">
+              <h3 className="text-sm lg:text-xl font-semibold uppercase tracking-wide">
                 Empresa
               </h3>
               <ul className="mt-4 space-y-2">
                 <li>
                   <Link
                     href="#intro"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Sobre
                   </Link>
@@ -64,7 +64,7 @@ const FooterInfos: React.FC = ({}) => {
                 <li>
                   <Link
                     href="#faq"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Depoimentos
                   </Link>
@@ -72,7 +72,7 @@ const FooterInfos: React.FC = ({}) => {
                 <li>
                   <Link
                     href="#faq"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Procedimentos
                   </Link>
@@ -80,7 +80,7 @@ const FooterInfos: React.FC = ({}) => {
                 <li>
                   <Link
                     href="#faq"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     FAQ
                   </Link>
@@ -88,7 +88,7 @@ const FooterInfos: React.FC = ({}) => {
                 <li>
                   <Link
                     href="#faq"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Política de Privacidade
                   </Link>
@@ -98,9 +98,9 @@ const FooterInfos: React.FC = ({}) => {
           </div>
 
           {/* Section - serviços faciais */}
-          <div className="lg:gap-2 pt-10 md:pt-0">
+          <div className="lg:gap-2 pt-10 md:pt-0 text-writingOne">
             <div className="flex flex-col text-center md:text-start">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-white">
+              <h3 className="text-sm lg:text-xl font-semibold uppercase tracking-wide">
                 Estética Facial
               </h3>
               <ul className="mt-4 space-y-2">
@@ -108,7 +108,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Limpeza%20de%20pele!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Limpeza de Pele
                   </Link>
@@ -117,7 +117,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrata%C3%A7%C3%A3o%20Profunda!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Hidratação Profunda
                   </Link>
@@ -126,7 +126,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Peeling%20Qu%C3%ADmico!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Peeling Químico
                   </Link>
@@ -135,7 +135,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Microagulhamento!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Microagulhamento
                   </Link>
@@ -144,7 +144,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Skinbooster!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Skinbooster
                   </Link>
@@ -153,7 +153,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20PDRN%20DNA%20do%20Salm%C3%A3o!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     PDRN DNA do Salmão
                   </Link>
@@ -162,7 +162,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20os%20Fios%20de%20PDO!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Fios de PDO
                   </Link>
@@ -171,7 +171,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Endolifting
                   </Link>
@@ -180,7 +180,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Preenchimento%20Full%20Face!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Preenchimento Full Face
                   </Link>
@@ -189,7 +189,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Bioestimilador%20de%20Col%C3%A1geno!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Bioestimilador de Colágeno
                   </Link>
@@ -198,7 +198,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Toxina%20Botul%C3%ADnica!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Toxina Botulínica
                   </Link>
@@ -207,7 +207,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrolifting!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Hidrolifting
                   </Link>
@@ -217,9 +217,9 @@ const FooterInfos: React.FC = ({}) => {
           </div>
 
           {/* Section - serviços corporal */}
-          <div className="lg:gap-2 pt-10 md:pt-0">
+          <div className="lg:gap-2 pt-10 md:pt-0 text-writingOne">
             <div className="flex flex-col text-center md:text-start">
-              <h3 className="text-sm font-semibold uppercase tracking-wide text-white">
+              <h3 className="text-sm lg:text-xl font-semibold uppercase tracking-wide">
                 Estética Corporal
               </h3>
               <ul className="mt-4 space-y-2">
@@ -227,7 +227,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Acompanhamento%20Nutricional%20Personalizado!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600 duration-300"
                   >
                     Acompanhamento Nutricional Personalizado
                   </Link>
@@ -236,7 +236,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Carboxiterapia!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Carboxiterapia
                   </Link>
@@ -245,7 +245,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20as%20Enzimas!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Enzimas
                   </Link>
@@ -254,7 +254,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Termoredux!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Termoredux
                   </Link>
@@ -263,7 +263,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Drenagem%20Linf%C3%A1tica!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Drenagem Linfática
                   </Link>
@@ -272,7 +272,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrolipoclasia!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Hidrolipoclasia
                   </Link>
@@ -281,7 +281,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Radiofrequ%C3%AAncia!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Radiofrequência
                   </Link>
@@ -290,7 +290,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Lipo%20Sem%20Corte!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Lipo Sem Corte
                   </Link>
@@ -299,7 +299,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Criomodelagrem!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Criomodelagrem
                   </Link>
@@ -308,7 +308,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Endolifting
                   </Link>
@@ -317,7 +317,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Harmoniza%C3%A7%C3%A3o%20de%20Gl%C3%BAteos!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Harmonização de Glúteos
                   </Link>
@@ -326,7 +326,7 @@ const FooterInfos: React.FC = ({}) => {
                   <Link
                     target="_black"
                     href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Peim%20(Secagem%20de%20microvasos)!"
-                    className="text-slate-400 hover:text-slate-600"
+                    className="hover:text-slate-600"
                   >
                     Peim (Secagem de microvasos)
                   </Link>
