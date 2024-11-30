@@ -212,6 +212,15 @@ const FooterInfos: React.FC = ({}) => {
                     Hidrolifting
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    target="_black"
+                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Exossomos."
+                    className="hover:text-slate-600"
+                  >
+                    Exossomos
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

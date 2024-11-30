@@ -18,7 +18,7 @@ module.exports = {
       colors: {
         'brownBg': '#eeeae5',
         'brownBgNav': '#856952',
-        'writingOne': '#eeeae5',
+        'writingOne': '#eeeae7',
       },
     },
   },
