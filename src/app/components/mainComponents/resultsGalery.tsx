@@ -7,10 +7,14 @@ const ResultsGalery = () => {
     "/resultados/result2.jpeg",
     "/resultados/result1.jpeg",
     "/resultados/result2.jpeg",
+    "/resultados/result1.jpeg",
+    "/resultados/result2.jpeg",
+    "/resultados/result1.jpeg",
+    "/resultados/result2.jpeg",
   ];
 
   return (
-    <div className="flex flex-col items-center w-full h-screen">
+    <div className="flex flex-col items-center w-full h-full">
       <h1 className="text-brownBgNav py-20 text-xl md:text-3xl lg:text-5xl">
         Veja alguns resultados da nossa clinica
       </h1>

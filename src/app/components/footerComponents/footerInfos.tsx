@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const FooterInfos: React.FC = ({}) => {
   return (
-    <footer className="bg-brownBgNav py-12 w-full px-10 md:px-20 lg:px-40">
+    <footer className="bg-brownBgNav py-12 w-full px-10 md:px-20 lg:px-40 h-[600px]">
       <div className="w-full px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:justify-between px-10">
           {/* Section - sobre */}
@@ -346,11 +346,11 @@ const FooterInfos: React.FC = ({}) => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="mt-12 border-t border-gray-700 pt-8 text-center text-slate-400 flex items-center justify-center">
+        <div className="mt-12 border-t border-gray-700 pt-2 text-center text-slate-400 flex items-center justify-center">
           <p>Harmony Clinic Bagé © 2024. Todos os direitos reservados.</p>
           <p className="px-2">|</p>
           <Link href="#">
-            <p className="hover:text-white">Shr Agência Digital © 2024</p>
+            <p className="hover:text-white">Shr Agência Digital © 2024.</p>
           </Link>
         </div>
       </div>
