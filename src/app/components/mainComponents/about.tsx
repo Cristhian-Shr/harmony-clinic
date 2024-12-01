@@ -1,11 +1,23 @@
+"use client";
 import Image from "next/image";
 import harmony from "../../../../public/profissionais/equipe01-removebg-preview.png";
 import CallToActionBtn from "../systemsComponents/callToActionBtn";
+import React, { useEffect } from 'react';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+
 
 const About: React.FC = ({}) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [About]);
+
+
   return (
     <section className="w-full h-screen flex flex-col lg:flex-row px-10 md:px-20 lg:px-40 text-brownBgNav">
-      <div className="lg:w-1/2 flex flex-col justify-center pt-5 md:pt-0">
+      <div className="lg:w-1/2 flex flex-col justify-center pt-5 md:pt-0" data-aos="fade-right">
         <h1 className="text-sm md:text-2xl font-thin">Harmony Clinic Bagé</h1>
         <h2 className="text-xl md:text-3xl lg:text-5xl pt-5 tracking-widest uppercase">
           Invista em você e declare seu amor por você mesma!
@@ -22,7 +34,7 @@ const About: React.FC = ({}) => {
           <CallToActionBtn />
         </div>
       </div>
-      <div className="lg:w-1/2 flex flex-col items-center justify-center relative pl-5">
+      <div className="lg:w-1/2 flex flex-col items-center justify-center relative pl-5" data-aos="fade-left">
         <Image
           alt="harmony"
           src={harmony}

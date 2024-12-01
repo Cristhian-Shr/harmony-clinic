@@ -1,10 +1,19 @@
+'use client';
 import Image from "next/image";
 import img from "../../../../public/profissionais/NatanaSemfundo.png";
+import React, { useEffect } from 'react';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
 
 const ProfileComponent = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [ProfileComponent]);
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBgNav px-10 md:px-16 lg:px-40">
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2" data-aos="fade-right">
         <h2 className="text-2xl font-bold text-gray-800">NATANA KUNST - BIOMÉDICA ESTETA </h2>
         <p className="mt-2 text-writingOne pt-4 mt:pt-0">
           Formada em Biomedicina e pós graduada em biomédica estética pela
@@ -29,7 +38,7 @@ const ProfileComponent = () => {
           rinomodelaçao, preenchimento labial e endolifting.
         </p>
       </div>
-      <div className="lg:w-1/2 flex justify-center rounded-full pt-5 md:pt-0">
+      <div className="lg:w-1/2 flex justify-center rounded-full pt-5 md:pt-0" data-aos="fade-left">
         <Image alt="proficional" src={img} className="rounded-full hover:scale-105 duration-500" />
       </div>
     </div>

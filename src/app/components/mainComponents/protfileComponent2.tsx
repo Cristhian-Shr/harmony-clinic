@@ -1,13 +1,22 @@
+'use client';
 import Image from "next/image";
 import img from "../../../../public/profissionais/proficional2.png";
+import React, { useEffect } from 'react';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
 
 const ProfileComponent2 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, [ProfileComponent2]);
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBg px-10 md:px-16 lg:px-20">
-      <div className="lg:w-1/2 flex justify-center rounded-full">
+      <div className="lg:w-1/2 flex justify-center rounded-full" data-aos="fade-right">
         <Image alt="proficional" src={img} className="rounded-full hover:scale-105 duration-500" />
       </div>
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2" data-aos="fade-left">
         <h2 className="text-2xl font-bold text-gray-800 pt-5 md:pt-0">
           FLÁVIA BORDIN - NUTRICIONISTA
         </h2>
