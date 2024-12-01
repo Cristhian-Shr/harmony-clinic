@@ -1,6 +1,7 @@
 import FooterInfos from "./components/footerComponents/footerInfos";
 import Navbar from "./components/headerComponents/navBar";
 import About from "./components/mainComponents/about";
+import CallToAction from "./components/mainComponents/callToAction";
 import { DepoimentsParallax } from "./components/mainComponents/depoimentsParallax";
 import ProfileComponent from "./components/mainComponents/profileComponent";
 import ProfileComponent3 from "./components/mainComponents/profileComponent3";
@@ -14,11 +15,12 @@ export default function Home() {
       <Navbar />
       <TooltipWhats />
       <About />
-      <DepoimentsParallax />
-      <ResultsGalery />
       <ProfileComponent />
       <ProfileComponent2 />
       <ProfileComponent3 />
+      <CallToAction />
+      <DepoimentsParallax />
+      <ResultsGalery />
       <FooterInfos />
     </section>
   );

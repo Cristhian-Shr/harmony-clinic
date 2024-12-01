@@ -14,7 +14,7 @@ const ResultsGalery = () => {
       <h1 className="text-brownBgNav py-20 text-xl md:text-3xl lg:text-5xl">
         Veja alguns resultados da nossa clinica
       </h1>
-      <div className="lg:grid lg:grid-cols-4 gap-4 p-4 px-10 md:px-16 lg:px-20 bg-brownBg text-brownBgNav flex">
+      <div className="lg:grid lg:grid-cols-4 gap-4 p-4 px-10 md:px-16 lg:px-20 bg-brownBg text-brownBgNav flex flex-col h-screen">
         {photos.map((photo, index) => (
           <div key={index} className="shadow-lg">
             <Image

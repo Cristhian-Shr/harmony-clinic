@@ -8,7 +8,7 @@ const ProfileComponent3 = () => {
         <h2 className="text-2xl font-bold text-gray-800">
           ENDRISE MOREIRA - ESTETOCOSMETÓLOGA
         </h2>
-        <p className="mt-2 text-writingOne">
+        <p className="mt-2 text-writingOne pt-4 mt:pt-0">
           Formada desde 2017 em Estética pelo Capacitar Grupo Educacional - Polo
           Fael. Natural de Bagé-RS. Estudante de biomedicina atualmente pela
           Unicesumar.
@@ -24,7 +24,7 @@ const ProfileComponent3 = () => {
         </p>
       </div>
       <div className="lg:w-1/2 flex justify-center rounded-full">
-        <Image alt="proficional" src={img} className="rounded-full" />
+        <Image alt="proficional" src={img} className="rounded-full hover:scale-105 duration-500" />
       </div>
     </div>
   );
