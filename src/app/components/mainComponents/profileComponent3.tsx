@@ -6,11 +6,21 @@ const ProfileComponent3 = () => {
     <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBgNav px-10 md:px-16 lg:px-40">
       <div className="lg:w-1/2">
         <h2 className="text-2xl font-bold text-gray-800">
-         Dr. Natana Kunts
+          ENDRISE MOREIRA - ESTETOCOSMETÓLOGA
         </h2>
         <p className="mt-2 text-writingOne">
-          Aqui você pode adicionar uma descrição detalhada sobre a profissional,
-          suas habilidades, experiências e conquistas.
+          Formada desde 2017 em Estética pelo Capacitar Grupo Educacional - Polo
+          Fael. Natural de Bagé-RS. Estudante de biomedicina atualmente pela
+          Unicesumar.
+        </p>
+        <p className="mt-2 text-writingOne">
+          A Estética a conquistou em 2013 quando teve seu primeiro contato em
+          uma clínica de biomedicina Estética, desde então foram diversos cursos
+          e aperfeiçoamentos na área.
+        </p>
+        <p className="mt-2 text-writingOne">
+        Atualmente atende a diversos procedimentos, como:
+        Limpeza de pele, microagulhamento, carboxi, PEIM, mesoterapia…
         </p>
       </div>
       <div className="lg:w-1/2 flex justify-center rounded-full">

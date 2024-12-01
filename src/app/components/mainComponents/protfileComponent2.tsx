@@ -9,11 +9,20 @@ const ProfileComponent2 = () => {
       </div>
       <div className="lg:w-1/2">
         <h2 className="text-2xl font-bold text-gray-800">
-         Dr. Natana Kunts
+          FLÁVIA BORDIN - NUTRICIONISTA
         </h2>
         <p className="mt-2 text-brownBgNav">
-          Aqui você pode adicionar uma descrição detalhada sobre a profissional,
-          suas habilidades, experiências e conquistas.
+          Nutricionista formada pela Urcamp. Pós graduada em nutrição clínica
+          pela Estácio e pós graduanda em nutrição comportamental e coaching
+          nutricional pela plenitude educação!
+        </p>
+        <p className="mt-2 text-brownBgNav">
+          Expert em Emagrecimento pelo Instituto Ana Paula Pujol. Foco em
+          atendimento feminino.
+        </p>
+        <p className="mt-2 text-brownBgNav">
+          Prioriza dietas onde não haja restrições e nem proibições! Atendimento
+          humanizado, focando nas preferências da paciente
         </p>
       </div>
     </div>
