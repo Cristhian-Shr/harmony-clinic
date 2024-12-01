@@ -7,19 +7,19 @@ const About: React.FC = ({}) => {
     <section className="w-full h-screen flex flex-col lg:flex-row px-10 md:px-20 lg:px-40 text-brownBgNav">
       <div className="lg:w-1/2 flex flex-col justify-center pt-5 md:pt-0">
         <h1 className="text-sm md:text-2xl font-thin">Harmony Clinic Bagé</h1>
-        <h2 className="text-xl md:text-3xl lg:text-5xl pt-5 tracking-widest uppercase">Invista em você
-        e declare seu amor por você mesma!</h2>
+        <h2 className="text-xl md:text-3xl lg:text-5xl pt-5 tracking-widest uppercase">
+          Invista em você e declare seu amor por você mesma!
+        </h2>
         <p className="pt-10 text-sm md:text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          exercitationem ab esse possimus inventore labore, facere deleniti odio
-          neque fuga iusto, quis dolore atque soluta maxime at corrupti rem
-          facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Illum exercitationem ab esse possimus inventore labore, facere
-          deleniti odio neque fuga iusto, quis dolore atque soluta maxime at
-          corrupti rem facilis?
+          Na Harmony Clinic, acreditamos que cada pessoa merece se sentir
+          especial e confiante. Por isso, oferecemos uma ampla gama de
+          tratamentos personalizados, realizados por profissionais qualificados
+          e apaixonados pelo que fazem. Venha nos visitar e descubra como
+          podemos ajudar você a alcançar seus objetivos de beleza e bem-estar em
+          um ambiente acolhedor.
         </p>
         <div className="pb-10 self-start md:self-center lg:self-start">
-        <CallToActionBtn />
+          <CallToActionBtn />
         </div>
       </div>
       <div className="lg:w-1/2 flex flex-col items-center justify-center relative pl-5">
