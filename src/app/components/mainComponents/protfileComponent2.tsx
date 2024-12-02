@@ -17,7 +17,7 @@ const ProfileComponent2 = () => {
         <Image alt="proficional" src={img} className="rounded-full hover:scale-105 duration-500" />
       </div>
       <div className="lg:w-1/2" data-aos="fade-left">
-        <h2 className="text-2xl font-bold text-gray-800 pt-5 md:pt-0">
+        <h2 className="text-2xl font-bold text-gray-800/90 pt-5 md:pt-0">
           FLÁVIA BORDIN - NUTRICIONISTA
         </h2>
         <p className="mt-2 text-brownBgNav pt-4 mt:pt-0">

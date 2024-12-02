@@ -4,12 +4,8 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
-  DropdownMenuPortal,
   DropdownMenuSeparator,
   DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { HiOutlineBuildingOffice2 } from "react-icons/hi2"
@@ -21,36 +17,40 @@ export function DropdownMenuCel() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <button><IoMenu className="text-5xl" /></button>
+        <button><IoMenu className="text-5xl"/></button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="w-56">
+      <DropdownMenuContent className="w-80 bg-brownBgNav text-writingOne mr-20 mt-5">
         <DropdownMenuLabel className="text-center">Harmony Clinic Menu</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-          <DropdownMenuItem>
+          <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">
             Sobre
             <DropdownMenuShortcut><HiOutlineBuildingOffice2 /></DropdownMenuShortcut>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">
           Depoimentos
           <DropdownMenuShortcut><SiGithubsponsors /></DropdownMenuShortcut>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">
+          Resultados
+            <DropdownMenuShortcut><MdOutlinePhoneAndroid /></DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">
           Contato
             <DropdownMenuShortcut><MdOutlinePhoneAndroid /></DropdownMenuShortcut>
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-          <DropdownMenuItem>Team</DropdownMenuItem>
+        {/* <DropdownMenuGroup>
+          <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">Team</DropdownMenuItem>
           <DropdownMenuSub>
-            <DropdownMenuSubTrigger>Invite users</DropdownMenuSubTrigger>
+            <DropdownMenuSubTrigger className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">Invite users</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
-                <DropdownMenuItem>Email</DropdownMenuItem>
-                <DropdownMenuItem>Message</DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>More...</DropdownMenuItem>
+                <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">Email</DropdownMenuItem>
+                <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">Message</DropdownMenuItem>
+                <DropdownMenuSeparator className="text-white border-b" />
+                <DropdownMenuItem className="hover:text-brownBgNav hover:bg-writingOne duration-500 font-semibold">More...</DropdownMenuItem>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>
@@ -58,7 +58,7 @@ export function DropdownMenuCel() {
             New Team
             <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
           </DropdownMenuItem>
-        </DropdownMenuGroup>
+        </DropdownMenuGroup> */}
       </DropdownMenuContent>
     </DropdownMenu>
   )

@@ -14,7 +14,7 @@ const ProfileComponent3 = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBgNav px-10 md:px-16 lg:px-40">
       <div className="lg:w-1/2" data-aos="fade-right">
-        <h2 className="text-2xl font-bold text-gray-800">
+        <h2 className="text-2xl font-bold text-gray-800/90">
           ENDRISE MOREIRA - ESTETOCOSMETÓLOGA
         </h2>
         <p className="mt-2 text-writingOne pt-4 mt:pt-0">
