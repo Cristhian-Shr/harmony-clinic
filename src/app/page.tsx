@@ -11,7 +11,7 @@ import { TooltipWhats } from "./components/systemsComponents/tooltipWhats";
 
 export default function Home() {
   return (
-    <section className="bg-brownBg text-writingOne">
+    <section className="w-full h-full bg-brownBg text-writingOne">
       <Navbar />
       <TooltipWhats />
       <About />
