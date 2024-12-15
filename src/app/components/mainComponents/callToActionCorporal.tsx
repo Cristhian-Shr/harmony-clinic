@@ -1,12 +1,12 @@
-// components/CallToAction.js
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
-const CallToAction = () => {
+const CallToActionCorporal = () => {
   return (
-    <div className="bg-brownBg text-brownBgNav p-6 rounded-lg shadow-md text-center">
-      <h2 className="text-2xl font-bold mb-4">Não perca nossas novidades!</h2>
-      <p className="mb-6">Você quer transformar agora a sua vida, melhorar sua qualidade de vida e melhorar muito sua autoestima?</p>
+    <div className="text-brownBg bg-brownBgNav p-6 rounded-lg shadow-md text-center">
+      <h2 className="text-2xl font-bold mb-4">
+        Descubra agora em como transformar o seu corpo!
+      </h2>
       <p className="mb-6">Chame a nossa equipe agora!</p>
       <Link
         href="https://wa.me/5553999097340?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
@@ -16,14 +16,14 @@ const CallToAction = () => {
       >
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]"></span>
         <span
-          className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-brownBgNav px-8 py-3 text-sm 
-      font-medium backdrop-blur-3xl transition-all duration-300 group-hover:bg-gray-800/90"
+          className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-brownBg px-8 py-3 text-sm 
+      font-medium backdrop-blur-3xl transition-all duration-500 group-hover:bg-gray-800/90"
         >
           <svg
             stroke="currentColor"
             viewBox="0 0 24 24"
             fill="none"
-            className="mr-2 h-5 w-5 text-writingOne transition-transform group-hover:-translate-x-1 group-hover:text-brownBgNav duration-300"
+            className="mr-2 h-5 w-5 transition-transform group-hover:-translate-x-1 text-brownBgNav duration-500"
           >
             <path
               d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
@@ -33,15 +33,15 @@ const CallToAction = () => {
             ></path>
           </svg>
 
-          <span className="relative bg-clip-text text-writingOne hover:text-brownBgNav duration-300 font-semibold group">
-            Converse conosco agora!
+          <span className="relative bg-clip-text text-brownBgNav duration-500 font-semibold group">
+            Transforme o seu corpo agora!
           </span>
 
           <svg
             stroke="currentColor"
             viewBox="0 0 24 24"
             fill="none"
-            className="ml-2 h-5 w-5 text-writingOne transition-transform group-hover:translate-x-1 group-hover:text-brownBgNav duration-300"
+            className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1 text-brownBgNav duration-500"
           >
             <path
               d="M13 5l7 7-7 7M5 5l7 7-7 7"
@@ -56,4 +56,4 @@ const CallToAction = () => {
   );
 };
 
-export default CallToAction;
+export default CallToActionCorporal;

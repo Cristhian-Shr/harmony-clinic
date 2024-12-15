@@ -1,6 +1,9 @@
+import Link from "next/link";
+
 const CallToActionBtn: React.FC = ({}) => {
   return (
-    <button className="mt-10 group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 
+    <Link href="https://wa.me/5553999097340?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
+    className="mt-10 group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 
     focus:ring-offset-2 focus:ring-offset-slate-50">
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]"></span>
 
@@ -38,7 +41,7 @@ const CallToActionBtn: React.FC = ({}) => {
           ></path>
         </svg>
       </span>
-    </button>
+    </Link >
   );
 };
 
