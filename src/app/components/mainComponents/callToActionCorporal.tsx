@@ -5,7 +5,7 @@ const CallToActionCorporal = () => {
   return (
     <div className="text-brownBg bg-brownBgNav p-6 rounded-lg shadow-md text-center">
       <h2 className="text-2xl font-bold mb-4">
-        Descubra agora em como transformar o seu corpo!
+        Descubra agora como transformar o seu corpo!
       </h2>
       <p className="mb-6">Chame a nossa equipe agora!</p>
       <Link

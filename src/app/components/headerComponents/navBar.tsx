@@ -6,7 +6,7 @@ import { DropdownMenuCel } from "./dropdownMenuCel";
 
 const Navbar: React.FC = ({}) => {
   return (
-    <section className="w-full h-24 px-10 md:px-20 lg:px-40 flex items-center justify-between bg-brownBgNav">
+    <section className="w-full h-24 px-10 md:px-20 flex items-center justify-between bg-brownBgNav">
       <Link href="/">
         <Image alt="logoTipo" src={logoDesktop} className="w-80 hidden lg:flex" />
         <Image alt="logoCel" src={logoCel} className="lg:hidden w-24" />
