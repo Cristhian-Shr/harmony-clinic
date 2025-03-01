@@ -1,55 +1,57 @@
 import Image from "next/image";
 import React from "react";
 
-const ResultsGalery = () => {
+const ResultsGallery = () => {
   const photos = [
+    "/resultados/facialResult8.jpeg",
     "/resultados/facialResult1.jpeg",
     "/resultados/facialResult2.jpeg",
-    "/resultados/facialResult3.jpeg",
     "/resultados/facialResult4.jpeg",
     "/resultados/facialResult5.jpeg",
     "/resultados/facialResult6.jpeg",
     "/resultados/facialResult7.jpeg",
-    "/resultados/facialResult8.jpeg",
-    "/resultados/facialResult9.jpeg",
     "/resultados/facialResult10.jpeg",
+    "/resultados/facialResult9.jpeg",
     "/resultados/facialResult11.jpeg",
     "/resultados/facialResult12.jpeg",
     "/resultados/facialResult13.jpeg",
+    "/resultados/facialResult14.jpeg",
+    "/resultados/facialResult3.jpeg",
   ];
 
   const captions = [
-    "Resultado 1: Antes e Depois",
-    "Resultado 2: Melhora na pele",
-    "Resultado 3: Tratamento eficaz",
-    "Resultado 4: Resultados visíveis",
-    "Resultado 5: Sorriso renovado",
-    "Resultado 6: Pele radiante",
-    "Resultado 7: Transformação incrível",
-    "Resultado 8: Cuidados com a pele",
-    "Resultado 9: Resultados impressionantes",
-    "Resultado 10: Beleza natural",
-    "Resultado 11: Confiança restaurada",
-    "Resultado 12: Resultados de qualidade",
-    "Resultado 13: Satisfação garantida",
+    "Preenchimento labial",
+    "Harmonização facial com apenas 3 ml de ácido hialurônico",
+    "Preenchimento labial para volume e contorno",
+    "Preenchimento labial",
+    "Endolifting para melhora da flacidez",
+    "Endolifting para estímulo de colágeno",
+    "Preenchimento labial com 1ml de ácido hialurônico",
+    "Bioestimulador de colágeno para flacidez",
+    "Preenchimento labial",
+    "Bioestimulador de colágeno",
+    "Harmonização facial",
+    "Toxina botulínica (botox) para linhas dinâmicas",
+    "Harmonização facial",
+    "Preenchimento labial",
   ];
 
   return (
-    <div className="flex flex-col items-center w-full h-full min-h-[100vh]">
-      <h1 className="text-brownBgNav py-20 text-xl md:text-3xl lg:text-5xl">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen bg-brownBg py-16">
+      <h1 className="text-brownBgNav text-xl md:text-3xl lg:text-5xl pb-10 text-center">
         Veja alguns resultados faciais da Harmony Clinic
       </h1>
-      <div className="lg:grid lg:grid-cols-4 gap-4 p-4 px-10 md:px-16 lg:px-20 bg-brownBg text-brownBgNav flex flex-col ">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-8 p-6 max-w-6xl">
         {photos.map((photo, index) => (
-          <div key={index} className="shadow-lg">
+          <div key={index} className="flex flex-col items-center text-center shadow-lg rounded-2xl overflow-hidden bg-white">
             <Image
-              width={100}
-              height={100}
               src={photo}
               alt={`Photo ${index + 1}`}
-              className="w-96 h-96"
+              width={300}
+              height={300}
+              className="rounded-2xl object-cover w-full h-auto"
             />
-            <p className="text-center mt-2 text-sm text-gray-600">{captions[index]}</p>
+            <p className="p-3 text-sm text-gray-700">{captions[index]}</p>
           </div>
         ))}
       </div>
@@ -57,4 +59,4 @@ const ResultsGalery = () => {
   );
 };
 
-export default ResultsGalery;
+export default ResultsGallery;

@@ -3,7 +3,7 @@ import Navbar from "./components/headerComponents/navBar";
 import About from "./components/mainComponents/about";
 import CallToAction from "./components/mainComponents/callToAction";
 import CallToActionCorporal from "./components/mainComponents/callToActionCorporal";
-import { DepoimentsParallax } from "./components/mainComponents/depoimentsParallax";
+import { DepoimentsGrid } from "./components/mainComponents/depoimentsParallax";
 import ProfileComponent from "./components/mainComponents/profileComponent";
 import ProfileComponent3 from "./components/mainComponents/profileComponent3";
 import ProfileComponent2 from "./components/mainComponents/protfileComponent2";
@@ -21,7 +21,7 @@ export default function Home() {
       <ProfileComponent2 />
       <ProfileComponent3 />
       <CallToAction />
-      <DepoimentsParallax />
+      <DepoimentsGrid />
       <ResultsGaleryCorporal />
       <CallToActionCorporal />
       <ResultsGalery />
