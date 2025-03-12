@@ -12,7 +12,7 @@ const ProfileComponent = () => {
     });
   }, [ProfileComponent]);
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBgNav px-10 md:px-16 lg:px-40">
+    <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBgNav px-10 md:px-16 lg:px-40" id="about">
       <div className="lg:w-1/2" data-aos="fade-right">
         <h2 className="text-2xl font-bold text-gray-800/90">NATANA KUNST - BIOMÉDICA ESTETA</h2>
         <div className="">
