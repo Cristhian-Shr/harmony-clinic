@@ -11,7 +11,7 @@ import depoiment7 from '../../../../public/depoimentos/depoiment7.jpeg';
 
 export function DepoimentsGrid() {
   return (
-    <section className="py-16 flex flex-col items-center bg-brownBgNav text-writingOne">
+    <section className="py-16 flex flex-col items-center bg-brownBgNav text-writingOne" id="depoiments">
       <h1 className="text-2xl md:text-3xl lg:text-5xl pb-8 font-semibold text-center">
         Veja alguns depoimentos
       </h1>

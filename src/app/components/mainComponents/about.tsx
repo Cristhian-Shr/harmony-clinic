@@ -14,7 +14,7 @@ const About: React.FC = ({}) => {
   }, [About]);
 
   return (
-    <section className="w-full h-screen flex flex-col lg:flex-row px-10 md:px-20 lg:px-40 text-brownBgNav">
+    <section className="w-full h-screen flex flex-col lg:flex-row px-10 md:px-20 lg:px-40 text-brownBgNav" id="about">
       <div
         className="lg:w-1/2 flex flex-col justify-center pt-5 md:pt-0"
         data-aos="fade-right"

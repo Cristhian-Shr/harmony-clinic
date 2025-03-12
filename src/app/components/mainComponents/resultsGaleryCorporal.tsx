@@ -25,7 +25,7 @@ const ResultsGalleryCorporal = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-screen bg-brownBg py-16">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen bg-brownBg py-16" id="resultosCorporais">
       <h1 className="text-brownBgNav text-xl md:text-3xl lg:text-5xl pb-10 text-center">
         Veja alguns resultados corporais da Harmony Clinic
       </h1>
