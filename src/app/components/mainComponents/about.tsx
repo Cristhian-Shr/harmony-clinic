@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import harmony from "../../../../public/profissionais/equipe01-removebg-preview.png";
 import CallToActionBtn from "../systemsComponents/callToActionBtn";
@@ -11,7 +12,7 @@ const About: React.FC = ({}) => {
     AOS.init({
       duration: 1500,
     });
-  }, [About]);
+  }, []);
 
   return (
     <section className="w-full h-screen flex flex-col lg:flex-row px-10 md:px-20 lg:px-40 text-brownBgNav" id="init">

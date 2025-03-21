@@ -10,7 +10,7 @@ const ProfileComponent2 = () => {
     AOS.init({
       duration: 1500,
     });
-  }, [ProfileComponent2]);
+  }, []);
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between p-6 bg-brownBg px-10 md:px-16 lg:px-20">
       <div className="lg:w-1/2 flex justify-center rounded-full" data-aos="fade-right">

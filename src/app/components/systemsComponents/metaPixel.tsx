@@ -1,4 +1,5 @@
 import Script from "next/script";
+import Image from "next/image";
 
 const MetaPixel = () => (
   <>
@@ -21,13 +22,13 @@ const MetaPixel = () => (
       }}
     />
     <noscript>
-      <img
+      <Image
         height="1"
         width="1"
         style={{ display: "none" }}
         src="https://www.facebook.com/tr?id=1305550974082464&ev=PageView&noscript=1"
         alt="facebook pixel"
-      />
+      ></Image>
     </noscript>
   </>
 );
