@@ -39,7 +39,7 @@ const FooterInfos: React.FC = ({ }) => {
                 </li>
                 <li>
                   <Link
-                    href="https://wa.me/5553999097340?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
+                    href="https://wa.me/5553999233951?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
                     aria-label="Whatsapp"
                     className="hover:text-slate-600"
                   >
@@ -107,7 +107,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Limpeza%20de%20pele!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Limpeza%20de%20pele!"
                     className="hover:text-slate-600"
                   >
                     Limpeza de Pele
@@ -116,7 +116,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrata%C3%A7%C3%A3o%20Profunda!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Hidrata%C3%A7%C3%A3o%20Profunda!"
                     className="hover:text-slate-600"
                   >
                     Hidratação Profunda
@@ -125,7 +125,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Peeling%20Qu%C3%ADmico!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Peeling%20Qu%C3%ADmico!"
                     className="hover:text-slate-600"
                   >
                     Peeling Químico
@@ -134,7 +134,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Microagulhamento!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Microagulhamento!"
                     className="hover:text-slate-600"
                   >
                     Microagulhamento
@@ -143,7 +143,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Skinbooster!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Skinbooster!"
                     className="hover:text-slate-600"
                   >
                     Skinbooster
@@ -152,7 +152,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20PDRN%20DNA%20do%20Salm%C3%A3o!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20PDRN%20DNA%20do%20Salm%C3%A3o!"
                     className="hover:text-slate-600"
                   >
                     PDRN DNA do Salmão
@@ -161,7 +161,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20os%20Fios%20de%20PDO!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20os%20Fios%20de%20PDO!"
                     className="hover:text-slate-600"
                   >
                     Fios de PDO
@@ -170,7 +170,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
                     className="hover:text-slate-600"
                   >
                     Endolifting
@@ -179,7 +179,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Preenchimento%20Full%20Face!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Preenchimento%20Full%20Face!"
                     className="hover:text-slate-600"
                   >
                     Preenchimento Full Face
@@ -188,7 +188,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Bioestimilador%20de%20Col%C3%A1geno!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Bioestimilador%20de%20Col%C3%A1geno!"
                     className="hover:text-slate-600"
                   >
                     Bioestimilador de Colágeno
@@ -197,7 +197,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Toxina%20Botul%C3%ADnica!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Toxina%20Botul%C3%ADnica!"
                     className="hover:text-slate-600"
                   >
                     Toxina Botulínica
@@ -206,7 +206,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrolifting!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Hidrolifting!"
                     className="hover:text-slate-600"
                   >
                     Hidrolifting
@@ -215,7 +215,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Exossomos."
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Exossomos."
                     className="hover:text-slate-600"
                   >
                     Exossomos
@@ -235,7 +235,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Acompanhamento%20Nutricional%20Personalizado!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Acompanhamento%20Nutricional%20Personalizado!"
                     className="hover:text-slate-600 duration-300"
                   >
                     Acompanhamento Nutricional Personalizado
@@ -244,7 +244,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Carboxiterapia!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Carboxiterapia!"
                     className="hover:text-slate-600"
                   >
                     Carboxiterapia
@@ -253,7 +253,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20as%20Enzimas!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20as%20Enzimas!"
                     className="hover:text-slate-600"
                   >
                     Enzimas
@@ -262,7 +262,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Termoredux!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Termoredux!"
                     className="hover:text-slate-600"
                   >
                     Termoredux
@@ -271,7 +271,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Drenagem%20Linf%C3%A1tica!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Drenagem%20Linf%C3%A1tica!"
                     className="hover:text-slate-600"
                   >
                     Drenagem Linfática
@@ -280,7 +280,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Hidrolipoclasia!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Hidrolipoclasia!"
                     className="hover:text-slate-600"
                   >
                     Hidrolipoclasia
@@ -289,7 +289,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Radiofrequ%C3%AAncia!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Radiofrequ%C3%AAncia!"
                     className="hover:text-slate-600"
                   >
                     Radiofrequência
@@ -298,7 +298,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Lipo%20Sem%20Corte!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Lipo%20Sem%20Corte!"
                     className="hover:text-slate-600"
                   >
                     Lipo Sem Corte
@@ -307,7 +307,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Criomodelagrem!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Criomodelagrem!"
                     className="hover:text-slate-600"
                   >
                     Criomodelagrem
@@ -316,7 +316,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Endolifting!"
                     className="hover:text-slate-600"
                   >
                     Endolifting
@@ -325,7 +325,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20a%20Harmoniza%C3%A7%C3%A3o%20de%20Gl%C3%BAteos!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20a%20Harmoniza%C3%A7%C3%A3o%20de%20Gl%C3%BAteos!"
                     className="hover:text-slate-600"
                   >
                     Harmonização de Glúteos
@@ -334,7 +334,7 @@ const FooterInfos: React.FC = ({ }) => {
                 <li>
                   <Link
                     target="_black"
-                    href="https://wa.me/5553999097340?text=Quero%20saber%20mais%20sobre%20o%20Peim%20(Secagem%20de%20microvasos)!"
+                    href="https://wa.me/5553999233951?text=Quero%20saber%20mais%20sobre%20o%20Peim%20(Secagem%20de%20microvasos)!"
                     className="hover:text-slate-600"
                   >
                     Peim (Secagem de microvasos)

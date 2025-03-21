@@ -9,7 +9,7 @@ const CallToActionCorporal = () => {
       </h2>
       <p className="mb-6">Chame a nossa equipe agora!</p>
       <Link
-        href="https://wa.me/5553999097340?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
+        href="https://wa.me/5553999233951?text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20Harmony%20Clinic%20Bag%C3%A9..."
         target="_blanck"
         className="mt-2 group relative inline-flex overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 
     focus:ring-offset-2 focus:ring-offset-slate-50"
